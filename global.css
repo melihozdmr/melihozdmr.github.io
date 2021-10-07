@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url('fonts/clashdisplay-medium.woff2') format('woff2'),
+    url('fonts/clashdisplay-medium.woff') format('woff'),
+    url('fonts/clashdisplay-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url('fonts/clashdisplay-semibold.woff2') format('woff2'),
+    url('fonts/clashdisplay-semibold.woff') format('woff'),
+    url('fonts/clashdisplay-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+body {
+    font-family: ClashDisplay-Medium;
+    background-color: #171718;
+}
+.noise {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url(https://github.com/melihozdmr/me/blob/master/noise.png);
+    background-position: 50% 50%;
+    background-size: auto;
+    background-attachment: scroll;
+    opacity: .8;
+}
