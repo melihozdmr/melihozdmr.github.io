@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'ClashDisplay-Medium';
-    src: url('fonts/clashdisplay-medium.woff2') format('woff2'),
-    url('fonts/clashdisplay-medium.woff') format('woff'),
-    url('fonts/clashdisplay-medium.ttf') format('truetype');
+    src: url('https://melihozdmr.github.io/fonts/clashdisplay-medium.woff2') format('woff2'),
+    url('https://melihozdmr.github.io/fonts/clashdisplay-medium.woff') format('woff'),
+    url('https://melihozdmr.github.io/fonts/clashdisplay-medium.ttf') format('truetype');
     font-weight: 500;
     font-display: swap;
     font-style: normal;
@@ -11,9 +11,9 @@
 
 @font-face {
     font-family: 'ClashDisplay-Semibold';
-    src: url('fonts/clashdisplay-semibold.woff2') format('woff2'),
-    url('fonts/clashdisplay-semibold.woff') format('woff'),
-    url('fonts/clashdisplay-semibold.ttf') format('truetype');
+    src: url('https://melihozdmr.github.io/fonts/clashdisplay-semibold.woff2') format('woff2'),
+    url('https://melihozdmr.github.io/fonts/clashdisplay-semibold.woff') format('woff'),
+    url('https://melihozdmr.github.io/fonts/clashdisplay-semibold.ttf') format('truetype');
     font-weight: 600;
     font-display: swap;
     font-style: normal;
@@ -29,7 +29,7 @@ body {
     right: 0;
     bottom: 0;
     z-index: -1;
-    background-image: url(https://github.com/melihozdmr/me/blob/master/noise.png);
+    background-image: url(https://melihozdmr.github.io/noise.png);
     background-position: 50% 50%;
     background-size: auto;
     background-attachment: scroll;
