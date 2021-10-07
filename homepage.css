@@ -21,29 +21,7 @@
     font-size: 24px;
 }
 #block-67320fc9c8464df480d3317500c13042 a {
-    position: relative;
-    padding: 0;
     border-bottom: none;
-}
-#block-67320fc9c8464df480d3317500c13042 a:before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -5px;
-    height: 1px;
-    transform: scaleX(1);
-    transform-origin: left center;
-    background: currentColor;
-    transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
-}
-#block-67320fc9c8464df480d3317500c13042 a:focus, #block-67320fc9c8464df480d3317500c13042 a:hover {
-    text-decoration: none;
-}
-#block-67320fc9c8464df480d3317500c13042 a:hover:before {
-    transform: scaleX(0);
-    transform-origin: right center;
 }
 #block-43abdffa5ff64b949a0842a5ea75b277 .notion-semantic-string{
     position: relative;

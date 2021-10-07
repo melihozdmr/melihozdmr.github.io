@@ -46,6 +46,18 @@ body {
     -webkit-filter: blur(680px);
     filter: blur(680px);
 }
+.bg-orange {
+    position: fixed;
+    bottom: -19%;
+    right: 0;
+    z-index: -1;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: #FA6B2E;
+    -webkit-filter: blur(680px);
+    filter: blur(680px);
+}
 .notion-semantic-string .link {
     opacity: 1;
 }
