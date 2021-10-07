@@ -46,3 +46,6 @@ body {
     -webkit-filter: blur(680px);
     filter: blur(680px);
 }
+.notion-semantic-string .link {
+    opacity: 1;
+}

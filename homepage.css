@@ -1,0 +1,85 @@
+.notion-semantic-string {
+    font-family: Inter;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.notion-text__content {
+    padding: 0;
+}
+.notion-text:not(:last-child) {
+    margin-bottom: 32px;
+}
+#block-43abdffa5ff64b949a0842a5ea75b277 {
+    padding: 140px 0 64px;
+}
+#block-67320fc9c8464df480d3317500c13042 {
+    padding-bottom: 64px;
+}
+#block-67320fc9c8464df480d3317500c13042 .notion-semantic-string {
+    font-family: ClashDisplay-Medium;
+    font-size: 24px;
+}
+#block-67320fc9c8464df480d3317500c13042 a {
+    position: relative;
+    padding: 0;
+    border-bottom: none;
+}
+#block-67320fc9c8464df480d3317500c13042 a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 1px;
+    transform: scaleX(1);
+    transform-origin: left center;
+    background: currentColor;
+    transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+#block-67320fc9c8464df480d3317500c13042 a:focus, #block-67320fc9c8464df480d3317500c13042 a:hover {
+    text-decoration: none;
+}
+#block-67320fc9c8464df480d3317500c13042 a:hover:before {
+    transform: scaleX(0);
+    transform-origin: right center;
+}
+#block-43abdffa5ff64b949a0842a5ea75b277 .notion-semantic-string{
+    position: relative;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 102px;
+    text-align: center;
+    color: #fff;
+    font-family: clashdisplay-semibold;
+}
+#block-43abdffa5ff64b949a0842a5ea75b277 .notion-semantic-string:before {
+    position: absolute;
+    background-image: url(https://melihozdmr.github.io/oval.svg);
+    width: 208px;
+    height: 63px;
+    top: .5rem;
+    left: 11.3rem;
+    z-index: -1;
+}
+@media (min-width: 1200px) {
+    #block-43abdffa5ff64b949a0842a5ea75b277 .notion-semantic-string:before {
+        content: '';
+    }
+}
+#block-43abdffa5ff64b949a0842a5ea75b277 .highlighted-color.color-blue {
+    color: #0083FF;
+}
+.super-content.max-width {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#block-e2ca6844339c4661acd537a55854f79c {
+    max-width: 900px;
+    margin: 96px auto;
+}
+#block-e2ca6844339c4661acd537a55854f79c .notion-column {
+    padding: 0;
+}
