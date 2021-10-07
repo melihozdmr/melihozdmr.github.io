@@ -60,4 +60,13 @@
 }
 #block-e2ca6844339c4661acd537a55854f79c .notion-column {
     padding: 0;
+    max-width: 364px;
+}
+#block-e2ca6844339c4661acd537a55854f79c .notion-column h2 {
+    line-height: 59px;
+    font-size: 48px;
+    font-weight: 600;
+}
+#block-e2ca6844339c4661acd537a55854f79c .notion-column h2 .highlighted-color.color-orange {
+    color: #FA6B2E;
 }
