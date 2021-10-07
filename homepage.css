@@ -41,11 +41,6 @@
     left: 11.3rem;
     z-index: -1;
 }
-@media (min-width: 1200px) {
-    #block-43abdffa5ff64b949a0842a5ea75b277 .notion-semantic-string:before {
-        content: '';
-    }
-}
 #block-43abdffa5ff64b949a0842a5ea75b277 .highlighted-color.color-blue {
     color: #0083FF;
 }
@@ -55,18 +50,72 @@
     margin-right: auto;
 }
 #block-e2ca6844339c4661acd537a55854f79c {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 96px auto;
 }
 #block-e2ca6844339c4661acd537a55854f79c .notion-column {
     padding: 0;
-    max-width: 364px;
 }
-#block-e2ca6844339c4661acd537a55854f79c .notion-column h2 {
+#block-e2ca6844339c4661acd537a55854f79c .notion-column p{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+}
+#block-e2ca6844339c4661acd537a55854f79c .notion-column p a{
+    border: none;
+    position: relative;
+    font-weight: 600;
+    color: white;
+}
+#block-e2ca6844339c4661acd537a55854f79c .notion-column p a:before, #block-e2ca6844339c4661acd537a55854f79c .notion-column p a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    background: white;
+    transform-origin: left;
+    transform: scaleX(0);
+}
+#block-e2ca6844339c4661acd537a55854f79c .notion-column p a:after{
+    transform-origin: right;
+    transform: scaleX(1);
+}
+#block-e2ca6844339c4661acd537a55854f79c .notion-column p a:hover:before{
+    transform: scaleX(1);
+    transition: transform 0.7s 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+#block-e2ca6844339c4661acd537a55854f79c .notion-column p a:hover:after{
+    transform: scaleX(0);
+    transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+#block-e2ca6844339c4661acd537a55854f79c .notion-heading .notion-semantic-string {
     line-height: 59px;
     font-size: 48px;
     font-weight: 600;
+    font-family: ClashDisplay-Medium;
+}
+#block-fc48794794bc458ca47f90bb69bf3ff2 {
+    max-width: 374px;
 }
 #block-e2ca6844339c4661acd537a55854f79c .notion-column h2 .highlighted-color.color-orange {
     color: #FA6B2E;
+}
+#block-e2ca6844339c4661acd537a55854f79c .notion-column h2 .highlighted-color.color-orange:before {
+    position: absolute;
+    background-image: url(https://melihozdmr.github.io/tracked.svg);
+    background-repeat: no-repeat;
+    width: 196px;
+    height: 18px;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-width: 1200px) {
+    #block-43abdffa5ff64b949a0842a5ea75b277 .notion-semantic-string:before {
+        content: '';
+    }
+    #block-e2ca6844339c4661acd537a55854f79c .notion-column h2 .highlighted-color.color-orange:before {
+        content: '';
+    }
 }

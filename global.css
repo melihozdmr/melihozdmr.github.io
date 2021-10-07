@@ -51,8 +51,8 @@ body {
     bottom: -19%;
     right: 0;
     z-index: -1;
-    width: 700px;
-    height: 700px;
+    width: 564px;
+    height: 564px;
     border-radius: 50%;
     background-color: #FA6B2E;
     -webkit-filter: blur(680px);
@@ -60,4 +60,7 @@ body {
 }
 .notion-semantic-string .link {
     opacity: 1;
+}
+.super-navbar__content {
+    padding: 0 24px;
 }
